@@ -10,18 +10,24 @@ num = 15;
 console.log(num);
 
 // 4
-num = num + 7;
+// num = num + 7;
+// console.log(num);
+num += 7;
 console.log(num);
 
 // 5
+// Setting a new variable
 num --;
 console.log(num);
+// not setting a new variable
+// num - 1;
+
 // 6
 num = "This is not a number";
 console.log(num);
 
 // 7
-let blank = undefined;
+let blank;
 
 // 8
 console.log(blank);
@@ -40,7 +46,8 @@ const quarter = 0.25, dime = 0.10; nickel = 0.05, penny = 0.01;
 console.log(quarter, dime, nickel, penny);
 
 // 3
-let letter =  "qwertyuiop";
+let letters =  "qwertyuiop";
 
 // 4
-console.log(letter);
+// console.log(letters[9]);
+console.log(letters[letters.length - 1]);
